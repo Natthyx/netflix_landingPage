@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: black;
+}
+.opening{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("./images/Netflix-Hintergrund.jpeg");
+  background-position: center;
+  height: 95vh;
+  border-bottom: 10px rgb(48, 47, 47) solid;
+}
+header{
+  width: 95%;
+  padding-top: 6px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background: transparent;
+}
+header img{
+  width: 220px;
+  margin-top: -9px;
+  margin-right: 90px;
+}
+header button{
+  width: 100px;
+  height: 45px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background: red;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.intro{
+  text-align: center;
+  width: 80%;
+  margin: 8rem auto;
+  line-height: 3rem;
+  color: white;
+  
+
+
+}
+.intro h1{
+  font-size: 55px;
+}
+
+
+form.create-account{
+
+  width: 750px;
+  margin: 20px auto;
+  display: flex;
+}
+form.create-account input{
+  width: 500px;
+  height: 50px;
+  margin-right: 10px;
+  padding:6px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px white solid;
+  background: rgba(116, 115, 115, 0.3) ;
+  font-size: 20px;
+  color: white;
+  
+}
+::placeholder{
+  color: white;
+}
+form.create-account button{
+  width: 250px;
+  height: 65px;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color:red;
+  color: white;
+}
+.description{
+  height: 50vh;
+  border-bottom: 10px rgb(48, 47, 47) solid;
+}
+.row{
+  width: 80%;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+  color: white;  
+  padding-top: 10px;
+}
+.note{
+  width: 550px;
+  margin-right: 50px;
+  padding:20px 20px;
+}
+.note h1{
+  margin-top: 20px;
+  font-size: 70px;
+  margin-bottom: 10px;
+  
+}
+.note p{
+  font-size: 35px;
+}
+.image{
+  position: relative;
+  width: 450px;
+}
+.gif{
+  width: 100%;
+  object-fit: contain;
+}
+.faq-section{
+  width: 100%;
+  padding: 50px 0;
+  border-bottom: 10px rgb(48, 47, 47) solid;
+}
+.faq-section h3{
+  text-align: center;
+  margin: 50px  auto;
+  color: white;
+  font-size: 30px;
+}
+.FAQ{
+  width: 80%;
+  margin: auto;
+  padding: 0 30px;
+  color: white;
+  text-align: center;
+  
+}
+.FAQ h1{
+  margin-top: 60px;
+  font-size: 70px;
+  margin-bottom: 50px;
+
+}
+.FAQ p{
+  width: 78%;
+  margin: auto;
+  text-align: left;
+  background: #363636;
+  padding: 30px 14px;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.FAQ button{
+  width: 80%;
+  margin: 0px auto 2px;
+  height: 100px;
+  text-align: left;
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+  background: #363636;
+  cursor: pointer;
+}
+.FAQ button:hover{
+  background: rgb(90, 90, 90);
+}
+.FAQ span{
+  float: right;
+  margin-right: 15px;
+  font-size: 40px;
+}
+
+.footer-container{
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-col ul{
+  line-height: 2rem;
+
+}
+.footer-col li{
+  list-style: none;
+  font-size: 20px;
+  
+}
+.footer-col a{
+  color: rgb(196, 196, 196);
+}
